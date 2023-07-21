@@ -16,7 +16,7 @@ useEffect(()=>{
 
 const fetchSelectedCategoryData = (query) => {
     setLoading(true)
-    fetchDataFromApi(`search/?q=${query}`).then((res)=>{
+    fetchDataFromApi(`search/?q=${query}`).then((res) => {
         console.log(res)
        // setSearchResult(res)
         setLoading(false)
